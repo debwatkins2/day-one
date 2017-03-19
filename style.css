@@ -8,52 +8,19 @@ body {
   width: 100%;
   height: 550px;
 }
-.white-text-lg {
+/* text styles */
+.white-text-xlg {
   color: white;
   font-size: 5em;
   text-align: center;
-  padding-top: 15%;
+  padding-top: 12%;
 }
-.white-text-md {
+.white-text-lg {
   color: white;
   font-size: 3.5em;
   text-align: center;
 }
-/* Title About Me Section*/
-.about-me {
-  width: 100%;
-  height: 550px;
-}
-.blue-text-about {
-  color: #6dc3ce;
-  font-size: 3em;
-  font-weight: 600;
-  margin-top: 10%;
-  text-align: center;
-}
-.blue-text-about-me {
-  color: #6dc3ce;
-  font-size: 1.25em;
-  font-weight: 600;
-  padding: 10%;
-  margin-top: -7%;
-  box-sizing: border-box;
-}
-/* Styling for pic and div dimensions*/
-.me {
-  width: 100%;
-  height: 550px;
-}
-.pic {
-  width: 60%;
-  height: 60%;
-  margin-top: 40%;
-  border-radius: 50%;
-  box-shadow: 4px 4px 3px #848177;
-  margin-left: 20%;
-}
-/* Title and text for Recent Projects */
-.white-text-recent {
+.white-text-md {
   color: white;
   font-size: 2.75em;
   text-align: center;
@@ -67,24 +34,93 @@ body {
   padding-left: 15%;
   padding-right: 15%;
 }
+.blue-text-lg {
+  color: #6dc3ce;
+  font-size: 3.5em;
+  font-weight: 600;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.blue-text-md {
+  color: #6dc3ce;
+  font-size: 2.75em;
+  text-align: center;
+  margin-top: 3%;
+}
+.blue-text-sm {
+  color: #6dc3ce;
+  font-size: 1.25em;
+  font-weight: 600;
+  padding: 10%;
+  margin-top: -7%;
+  box-sizing: border-box;
+}
+/* styling div for about me text */
+.about-me {
+  width: 100%;
+  height: auto;
+}
+/* Styling for pic and div dimensions*/
+.me {
+  width: 100%;
+  height: 550px;
+}
+.pic {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  box-shadow: 4px 4px 3px #848177;
+  margin-left: 20%;
+  margin-top: 40%;
+}
 /* Div dimensions and background color */
 .projects {
   background-color: #6dc3ce;
   width: 100%;
-  height: 800px;
+  height: auto;
+  padding-top: 5%;
+  margin-right: 3px;
 }
 .proj {
   color: #6dc3ce;
   background: white;
-  font-size: 1.1em;
+  font-size: 1.25em;
   font-weight: 600;
   text-align: center;
-  border: 2px solid grey;
-  padding: 2%;
+  border: 15px solid #6dc3ce;
+  padding-top: 2%;
   margin-top: 3%;
-  width: 80%;
-  height: 325px;
-
-
-
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+}
+/* Portfolio images and links */
+.portfolio {
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  margin-top: 3%;
+  box-sizing: border-box;
+}
+.portfolio1 {
+  width: 100%;
+  height: auto;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  box-sizing: border-box;
+}
+.portfolio2 {
+  width: 100%;
+  height: auto;
+  padding-top: 1.5%;
+  padding-bottom: 5%;
+  margin-top: 1.15%;
+  box-sizing: border-box;
+}
+.skills {
+  margin-top: -20%;
 }

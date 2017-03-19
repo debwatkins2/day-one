@@ -1,0 +1,90 @@
+body {
+  background: ivory;
+  font-family: 'Droid Sans', sans-serif;
+}
+/* Header Section - Title and div dimensions */
+.title {
+  background-color: #6dc3ce;
+  width: 100%;
+  height: 550px;
+}
+.white-text-lg {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 15%;
+}
+.white-text-md {
+  color: white;
+  font-size: 3.5em;
+  text-align: center;
+}
+/* Title About Me Section*/
+.about-me {
+  width: 100%;
+  height: 550px;
+}
+.blue-text-about {
+  color: #6dc3ce;
+  font-size: 3em;
+  font-weight: 600;
+  margin-top: 10%;
+  text-align: center;
+}
+.blue-text-about-me {
+  color: #6dc3ce;
+  font-size: 1.25em;
+  font-weight: 600;
+  padding: 10%;
+  margin-top: -7%;
+  box-sizing: border-box;
+}
+/* Styling for pic and div dimensions*/
+.me {
+  width: 100%;
+  height: 550px;
+}
+.pic {
+  width: 60%;
+  height: 60%;
+  margin-top: 40%;
+  border-radius: 50%;
+  box-shadow: 4px 4px 3px #848177;
+  margin-left: 20%;
+}
+/* Title and text for Recent Projects */
+.white-text-recent {
+  color: white;
+  font-size: 2.75em;
+  text-align: center;
+  margin-top: 3%;
+}
+.white-text-sm {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+/* Div dimensions and background color */
+.projects {
+  background-color: #6dc3ce;
+  width: 100%;
+  height: 800px;
+}
+.proj {
+  color: #6dc3ce;
+  background: white;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  border: 2px solid grey;
+  padding: 2%;
+  margin-top: 3%;
+  width: 80%;
+  height: 325px;
+
+
+
+}

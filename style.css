@@ -44,11 +44,13 @@ img {
 header  {
     background: #58c4c0;
     height: 150px;
+    padding-top: 3%;
     position: fixed;
     z-index: 1000;
     width: 100%;
-    opacity: .8;
+    opacity: .9;
     top: 0;
+    left: 0;
 }
 #header-inner {
     max-width: 1200px;
@@ -78,20 +80,20 @@ nav ul li {
 nav ul li a {
     color: #190a0a;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 400;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-bottom: 5%;
 }
 a:hover, .current {
     text-decoration: underline;
 }
+
 /* end of navigation styling */
 .title  {
     width: 50%;
     height: auto;
-    padding-top: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     margin-left: 5%;
     float: left;
 }
@@ -137,23 +139,22 @@ article {
 .circle-image {
     border-radius: 70%;
     margin-top: 50%;
-    margin-left: 5%;
 }
   /*  start article/aside/about-me section */
 .circle {
     margin: 0 auto;
     width: 150px;
     height: 150px;
-    background: #58c4c0;
+    background: #7eddd9;
     border-radius: 50%;
 }
 .background {
-    background-color: #58c4c0
+    border: 2px solid #d1caca;
 }
 .one-third {
     width: 29%;
     float: left;
-    margin: 2%;
+    margin: 1.5%;
 }
 .one-third i {
   	color: #f0f0f0;
@@ -176,9 +177,8 @@ p  {
 /* beginning footer section */
 
 footer {
-  	background: #333;
+  	background: #555;
   	overflow: hidden;
-  	opacity: .9;
 }
 #footer-inner {
   	max-width: 1200px;
@@ -189,19 +189,19 @@ footer .one-third {
   	margin: 2% 0;
 }
 footer h3 {
-	  color: #190a0a;
+	  color: #d1caca;
 }
 footer p {
-  	color: #190a0a;
+  	color: #d1caca;
   	text-align: center;
 }
 #footer-third {
-  	border-right: 2px solid #190a0a;
+  	border-right: 2px solid #d1caca;
   	max-height: 250px;
   	min-height: 250px;
 }
 footer a {
-  	color: #190a0a;
+  	color: #d1caca;
   	text-decoration: none;
 }
 .social li {
@@ -210,21 +210,22 @@ footer a {
 .social i {
   	font-size: 245%;
   	padding: 2% 6%;
-  	color: #190a0a;
+  	color: #d1caca;
 }
 .social i:hover {
-	  color: #405580;
+	  color: #92b267;
 }
 h5 a:hover {
   	text-decoration: none;
-  	color: #405580;
+  	color: #92b267;
 }
 /* footer second start */
 
 .second {
-  	border-top: 2px solid #190a0a;
-  	max-height: 50px;
-  	padding-bottom: 3%;
+  	border-top: 5px solid #a09090;
+  	max-height: 40px;
+    width: 100%;
+  	padding-bottom: 4%;
     opacity: .8;
 }
 /* Media Queries start */
